@@ -22,6 +22,10 @@ Content for the Modernizing Legacy Apps workshop delivered for Microsoft partner
 - Microservices patterns
 - Hands-on complex applications
 
+# Schedule
+
+TBD
+
 # Pre-requisites
 
 ## Azure Subscription
@@ -45,3 +49,12 @@ Using the same account as above, login to [Azure DevOps Services](https://azure.
 * Azure CLI
 * kubectl 
 * Visual Studio Code with Docker and Kubernetes extensions (recommended)
+
+If you don't have the tools above in your local computer, you can launch the Windows Server 2016 Datacenter - with Containers image in Azure Portal
+
+![](media/2019-01-06-11-32-57.png)
+
+Make sure you allow all public inbound ports (this is not a production machine).
+
+![](media/2019-01-06-11-37-02.png)
+
