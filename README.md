@@ -45,16 +45,36 @@ Using the same account as above, login to [Azure DevOps Services](https://azure.
 
 ## Tooling
 
-* Docker
-* Azure CLI
+* Docker (to run Linux containers)
+* Azure CLI or Azure Cloud Shell
 * kubectl 
 * Visual Studio Code with Docker and Kubernetes extensions (recommended)
 
-If you don't have the tools above in your local computer, you can launch the Windows Server 2016 Datacenter - with Containers image in Azure Portal
+If you don't have the tools above in your local computer, you can launch an available on GitHub by following the steps below.
 
-![](media/2019-01-06-11-32-57.png)
+## Using the Ubuntu VM with Docker
 
-Make sure you allow all public inbound ports (this is not a production machine).
+1. Click the **Deploy To Azure** Button
+2. Specify parameters:
+    - Resource Group: create a new one
+    - Location: North or West Europe
+    - Admin Username and Password: (choose your own)
+    - Dns Name: must be globally unique (eg: rifiel-ubuntudockervm)
+3. Once started, connect to the VM via SSH
+4. Install git `sudo apt-get install git`
+5. Make sure docker is running by typing `docker run hello-world`
 
-![](media/2019-01-06-11-37-02.png)
+# Lab Steps
+
+## Containers
+
+Available in [01-containers.md](01-containers.md)
+
+## Microservices
+
+Available in [02-microservices.md](02-microservices)
+
+## Serverless
+
+TBD
 
