@@ -6,8 +6,7 @@ RUN dotnet restore 01-container.csproj
 
 # copy everything else and build app
 COPY ./. ./
-# WORKDIR /app/aspnetapp
 RUN dotnet publish -c Release -o out
 
 WORKDIR /app/out
-ENTRYPOINT ["dotnet", "aspnetapp.dll"]
+ENTRYPOINT ["dotnet", "01-container.dll"]
