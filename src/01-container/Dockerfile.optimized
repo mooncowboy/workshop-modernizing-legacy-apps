@@ -7,7 +7,6 @@ WORKDIR /src
 COPY ["01-container.csproj", "./"]
 RUN dotnet restore "01-container.csproj"
 COPY . ./
-WORKDIR "01-container"
 RUN dotnet build "01-container.csproj" -c Release -o /app
 
 FROM build AS publish
