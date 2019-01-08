@@ -88,3 +88,10 @@ Available in [02-microservices.md](02-microservices)
 
 TBD
 
+# Microsoft Cloud Workshop student guides
+
+To be completed after labs.
+
+[Microservices](https://github.com/Microsoft/MCW-Microservices-architecture/blob/master/Whiteboard%20design%20session/WDS%20student%20guide%20-%20Microservices%20architecture.md) 
+
+[Serverless](https://github.com/Microsoft/MCW-Serverless-architecture/blob/master/Whiteboard%20design%20session/WDS%20student%20guide%20-%20Serverless%20architecture.md)
