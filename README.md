@@ -84,7 +84,7 @@ Available in [01-containers.md](01-containers.md)
 
 ## Microservices
 
-Available in [02-microservices.md](02-microservices)
+Available in [02-microservices.md](02-microservices.md)
 
 ## Serverless
 
