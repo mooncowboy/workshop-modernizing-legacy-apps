@@ -43,6 +43,16 @@ To activate the voucher:
 
 Using the same account as above, login to [Azure DevOps Services](https://azure.microsoft.com/en-us/services/devops/) (or [create an account](https://azure.microsoft.com/en-us/services/devops/))
 
+**In the Azure Portal** (not in Azure DevOps), create a new DevOps Project choosing the following:
+
+- .NET
+- ASP.NET Core
+- Kubernetes Service
+
+**NOTE:** You don't need to wait for this to finish right now, so you may proceeed.
+
+It will create a new Azure DevOps project with repo, build and release pipelines. It will also create an Azure Container Registry and Kubernetes Service. 
+
 ## Tooling
 
 * Docker (to run Linux containers)
