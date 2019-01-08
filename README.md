@@ -64,6 +64,8 @@ If you don't have the tools above in your local computer, you can launch an avai
 
 ## Using the Ubuntu VM with Docker
 
+https://github.com/Azure/azure-quickstart-templates/tree/master/docker-simple-on-ubuntu
+
 1. Click the **Deploy To Azure** Button
 2. Specify parameters:
     - Resource Group: create a new one
