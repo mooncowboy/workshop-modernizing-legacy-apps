@@ -101,7 +101,7 @@ Available in [02-microservices.md](02-microservices.md)
 
 ## Serverless
 
-TBD
+Available in [MCW Serverless HOL](https://github.com/Microsoft/MCW-Serverless-architecture/tree/master/Hands-on%20lab)
 
 # Microsoft Cloud Workshop student guides
 
@@ -128,3 +128,11 @@ To be completed after labs.
 [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
 
 [Azure DevOps Labs](https://www.azuredevopslabs.com/)
+
+# E-Books
+
+[Kubernetes Objects on Microsoft Azure](https://azure.microsoft.com/en-us/resources/kubernetes-objects-on-microsoft-azure/en-us/)
+
+[Modernize existing .NET applications with Azure cloud and Windows Containers](https://docs.microsoft.com/en-us/dotnet/standard/modernize-with-azure-and-containers/)
+
+[Serverless apps: Architecture, patterns, and Azure implementation](https://docs.microsoft.com/en-us/dotnet/standard/serverless-architecture/)
