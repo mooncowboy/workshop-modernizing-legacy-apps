@@ -24,7 +24,19 @@ Content for the Modernizing Legacy Apps workshop delivered for Microsoft partner
 
 # Schedule
 
-TBD
+1. Presentations
+    - The Journey to Cloud (15 min)
+    - Containers and Microservices (45 min)
+    - Serverless (1 hour)
+2. Hands on
+    - Track 1:
+        - Container lab (see below)
+        - Microservices lab (see below)
+    - Track 2:
+        - Serverless lab (see below)
+3. Architecture discussions (split in 2 tracks - 1 hour each)
+    - [Microservices MCW](https://github.com/Microsoft/MCW-Microservices-architecture/blob/master/Whiteboard%20design%20session/WDS%20student%20guide%20-%20Microservices%20architecture.md) 
+    - [Serverless MCW](https://github.com/Microsoft/MCW-Serverless-architecture/blob/master/Whiteboard%20design%20session/WDS%20student%20guide%20-%20Serverless%20architecture.md)
 
 # Pre-requisites
 
@@ -73,8 +85,9 @@ https://github.com/Azure/azure-quickstart-templates/tree/master/docker-simple-on
     - Admin Username and Password: (choose your own)
     - Dns Name: must be globally unique (eg: rifiel-ubuntudockervm)
 3. Once started, connect to the VM via SSH
-4. Install git `sudo apt-get install git`
-5. Make sure docker is running by typing `docker run hello-world`
+4. Make sure docker is running by typing `docker run hello-world`
+5. Install git `sudo apt-get install git`
+6. Clone this repo `git clone https://github.com/theplastictoy/workshop-modernizing-legacy-apps`
 
 # Lab Steps
 
@@ -97,3 +110,21 @@ To be completed after labs.
 [Microservices](https://github.com/Microsoft/MCW-Microservices-architecture/blob/master/Whiteboard%20design%20session/WDS%20student%20guide%20-%20Microservices%20architecture.md) 
 
 [Serverless](https://github.com/Microsoft/MCW-Serverless-architecture/blob/master/Whiteboard%20design%20session/WDS%20student%20guide%20-%20Serverless%20architecture.md)
+
+# Slide contents
+
+[Containers & Docker Tech Primer](https://azurecitadel.com/cloud-native/tech-primer-containers/)
+
+[Designing Microservices, Masashi Narumoto](https://www.slideshare.net/masashin/designing-microservices)
+
+[Kubernetes: Hands on With Microservices](https://azurecitadel.com/cloud-native/kubernetes/)
+
+[Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/)
+
+# Learn More
+
+[Microsoft Cloud Workshops](https://github.com/Microsoft/MCW)
+
+[Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
+
+[Azure DevOps Labs](https://www.azuredevopslabs.com/)
